@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package currency;
+
+enum CurrencyCode {
+{{range .ISO_4217.CcyTbl.CcyNtry}}{{if .CcyNbr}}/**
+ * {{index .CcyNm "$t"}}
+ *
+ * * {{index .CtryNm "$t"}}
+ */
+  {{index .Ccy "$t"}} = {{index .CcyNbr "$t" | int}};
+
+{{end}}{{end}}}
