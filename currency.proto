@@ -4,198 +4,162 @@ package currency;
 
 enum CurrencyCode {
 /**
+ * UAE Dirham
+ *
+ * * UNITED ARAB EMIRATES (THE)
+
+ */
+  AED = 784;
+
+/**
  * Afghani
  *
  * * AFGHANISTAN
+
  */
   AFN = 971;
-
-/**
- * Euro
- *
- * * ÅLAND ISLANDS
- */
-  EUR = 978;
 
 /**
  * Lek
  *
  * * ALBANIA
+
  */
   ALL = 8;
-
-/**
- * Algerian Dinar
- *
- * * ALGERIA
- */
-  DZD = 12;
-
-/**
- * US Dollar
- *
- * * AMERICAN SAMOA
- */
-  USD = 840;
-
-/**
- * Euro
- *
- * * ANDORRA
- */
-  EUR = 978;
-
-/**
- * Kwanza
- *
- * * ANGOLA
- */
-  AOA = 973;
-
-/**
- * East Caribbean Dollar
- *
- * * ANGUILLA
- */
-  XCD = 951;
-
-/**
- * East Caribbean Dollar
- *
- * * ANTIGUA AND BARBUDA
- */
-  XCD = 951;
-
-/**
- * Argentine Peso
- *
- * * ARGENTINA
- */
-  ARS = 32;
 
 /**
  * Armenian Dram
  *
  * * ARMENIA
+
  */
   AMD = 51;
 
 /**
- * Aruban Florin
+ * Netherlands Antillean Guilder
  *
- * * ARUBA
+ * * CURAÇAO
+ * * SINT MAARTEN (DUTCH PART)
+
  */
-  AWG = 533;
+  ANG = 532;
+
+/**
+ * Kwanza
+ *
+ * * ANGOLA
+
+ */
+  AOA = 973;
+
+/**
+ * Argentine Peso
+ *
+ * * ARGENTINA
+
+ */
+  ARS = 32;
 
 /**
  * Australian Dollar
  *
  * * AUSTRALIA
+ * * CHRISTMAS ISLAND
+ * * COCOS (KEELING) ISLANDS (THE)
+ * * HEARD ISLAND AND McDONALD ISLANDS
+ * * KIRIBATI
+ * * NAURU
+ * * NORFOLK ISLAND
+ * * TUVALU
+
  */
   AUD = 36;
 
 /**
- * Euro
+ * Aruban Florin
  *
- * * AUSTRIA
+ * * ARUBA
+
  */
-  EUR = 978;
+  AWG = 533;
 
 /**
  * Azerbaijanian Manat
  *
  * * AZERBAIJAN
+
  */
   AZN = 944;
 
 /**
- * Bahamian Dollar
+ * Convertible Mark
  *
- * * BAHAMAS (THE)
- */
-  BSD = 44;
+ * * BOSNIA AND HERZEGOVINA
 
-/**
- * Bahraini Dinar
- *
- * * BAHRAIN
  */
-  BHD = 48;
-
-/**
- * Taka
- *
- * * BANGLADESH
- */
-  BDT = 50;
+  BAM = 977;
 
 /**
  * Barbados Dollar
  *
  * * BARBADOS
+
  */
   BBD = 52;
 
 /**
- * Belarusian Ruble
+ * Taka
  *
- * * BELARUS
+ * * BANGLADESH
+
  */
-  BYN = 933;
+  BDT = 50;
 
 /**
- * Belarusian Ruble
+ * Bulgarian Lev
  *
- * * BELARUS
+ * * BULGARIA
+
  */
-  BYR = 974;
+  BGN = 975;
 
 /**
- * Euro
+ * Bahraini Dinar
  *
- * * BELGIUM
+ * * BAHRAIN
+
  */
-  EUR = 978;
+  BHD = 48;
 
 /**
- * Belize Dollar
+ * Burundi Franc
  *
- * * BELIZE
- */
-  BZD = 84;
+ * * BURUNDI
 
-/**
- * CFA Franc BCEAO
- *
- * * BENIN
  */
-  XOF = 952;
+  BIF = 108;
 
 /**
  * Bermudian Dollar
  *
  * * BERMUDA
+
  */
   BMD = 60;
 
 /**
- * Indian Rupee
+ * Brunei Dollar
  *
- * * BHUTAN
- */
-  INR = 356;
+ * * BRUNEI DARUSSALAM
 
-/**
- * Ngultrum
- *
- * * BHUTAN
  */
-  BTN = 64;
+  BND = 96;
 
 /**
  * Boliviano
  *
  * * BOLIVIA (PLURINATIONAL STATE OF)
+
  */
   BOB = 68;
 
@@ -203,167 +167,136 @@ enum CurrencyCode {
  * Mvdol
  *
  * * BOLIVIA (PLURINATIONAL STATE OF)
+
  */
   BOV = 984;
-
-/**
- * US Dollar
- *
- * * BONAIRE, SINT EUSTATIUS AND SABA
- */
-  USD = 840;
-
-/**
- * Convertible Mark
- *
- * * BOSNIA AND HERZEGOVINA
- */
-  BAM = 977;
-
-/**
- * Pula
- *
- * * BOTSWANA
- */
-  BWP = 72;
-
-/**
- * Norwegian Krone
- *
- * * BOUVET ISLAND
- */
-  NOK = 578;
 
 /**
  * Brazilian Real
  *
  * * BRAZIL
+
  */
   BRL = 986;
 
 /**
- * US Dollar
+ * Bahamian Dollar
  *
- * * BRITISH INDIAN OCEAN TERRITORY (THE)
+ * * BAHAMAS (THE)
+
  */
-  USD = 840;
+  BSD = 44;
 
 /**
- * Brunei Dollar
+ * Ngultrum
  *
- * * BRUNEI DARUSSALAM
+ * * BHUTAN
+
  */
-  BND = 96;
+  BTN = 64;
 
 /**
- * Bulgarian Lev
+ * Pula
  *
- * * BULGARIA
+ * * BOTSWANA
+
  */
-  BGN = 975;
+  BWP = 72;
 
 /**
- * CFA Franc BCEAO
+ * Belarusian Ruble
  *
- * * BURKINA FASO
+ * * BELARUS
+
  */
-  XOF = 952;
+  BYN = 933;
 
 /**
- * Burundi Franc
+ * Belarusian Ruble
  *
- * * BURUNDI
+ * * BELARUS
+
  */
-  BIF = 108;
+  BYR = 974;
 
 /**
- * Cabo Verde Escudo
+ * Belize Dollar
  *
- * * CABO VERDE
- */
-  CVE = 132;
+ * * BELIZE
 
-/**
- * Riel
- *
- * * CAMBODIA
  */
-  KHR = 116;
-
-/**
- * CFA Franc BEAC
- *
- * * CAMEROON
- */
-  XAF = 950;
+  BZD = 84;
 
 /**
  * Canadian Dollar
  *
  * * CANADA
+
  */
   CAD = 124;
 
 /**
- * Cayman Islands Dollar
+ * Congolese Franc
  *
- * * CAYMAN ISLANDS (THE)
+ * * CONGO (THE DEMOCRATIC REPUBLIC OF THE)
+
  */
-  KYD = 136;
+  CDF = 976;
 
 /**
- * CFA Franc BEAC
+ * WIR Euro
  *
- * * CENTRAL AFRICAN REPUBLIC (THE)
+ * * SWITZERLAND
+
  */
-  XAF = 950;
+  CHE = 947;
 
 /**
- * CFA Franc BEAC
+ * Swiss Franc
  *
- * * CHAD
+ * * LIECHTENSTEIN
+ * * SWITZERLAND
+
  */
-  XAF = 950;
+  CHF = 756;
 
 /**
- * Chilean Peso
+ * WIR Franc
  *
- * * CHILE
+ * * SWITZERLAND
+
  */
-  CLP = 152;
+  CHW = 948;
 
 /**
  * Unidad de Fomento
  *
  * * CHILE
+
  */
   CLF = 990;
+
+/**
+ * Chilean Peso
+ *
+ * * CHILE
+
+ */
+  CLP = 152;
 
 /**
  * Yuan Renminbi
  *
  * * CHINA
+
  */
   CNY = 156;
-
-/**
- * Australian Dollar
- *
- * * CHRISTMAS ISLAND
- */
-  AUD = 36;
-
-/**
- * Australian Dollar
- *
- * * COCOS (KEELING) ISLANDS (THE)
- */
-  AUD = 36;
 
 /**
  * Colombian Peso
  *
  * * COLOMBIA
+
  */
   COP = 170;
 
@@ -371,272 +304,190 @@ enum CurrencyCode {
  * Unidad de Valor Real
  *
  * * COLOMBIA
+
  */
   COU = 970;
-
-/**
- * Comoro Franc
- *
- * * COMOROS (THE)
- */
-  KMF = 174;
-
-/**
- * Congolese Franc
- *
- * * CONGO (THE DEMOCRATIC REPUBLIC OF THE)
- */
-  CDF = 976;
-
-/**
- * CFA Franc BEAC
- *
- * * CONGO (THE)
- */
-  XAF = 950;
-
-/**
- * New Zealand Dollar
- *
- * * COOK ISLANDS (THE)
- */
-  NZD = 554;
 
 /**
  * Costa Rican Colon
  *
  * * COSTA RICA
+
  */
   CRC = 188;
-
-/**
- * CFA Franc BCEAO
- *
- * * CÔTE D'IVOIRE
- */
-  XOF = 952;
-
-/**
- * Kuna
- *
- * * CROATIA
- */
-  HRK = 191;
-
-/**
- * Cuban Peso
- *
- * * CUBA
- */
-  CUP = 192;
 
 /**
  * Peso Convertible
  *
  * * CUBA
+
  */
   CUC = 931;
 
 /**
- * Netherlands Antillean Guilder
+ * Cuban Peso
  *
- * * CURAÇAO
+ * * CUBA
+
  */
-  ANG = 532;
+  CUP = 192;
 
 /**
- * Euro
+ * Cabo Verde Escudo
  *
- * * CYPRUS
+ * * CABO VERDE
+
  */
-  EUR = 978;
+  CVE = 132;
 
 /**
  * Czech Koruna
  *
  * * CZECH REPUBLIC (THE)
+
  */
   CZK = 203;
-
-/**
- * Danish Krone
- *
- * * DENMARK
- */
-  DKK = 208;
 
 /**
  * Djibouti Franc
  *
  * * DJIBOUTI
+
  */
   DJF = 262;
 
 /**
- * East Caribbean Dollar
+ * Danish Krone
  *
- * * DOMINICA
+ * * DENMARK
+ * * FAROE ISLANDS (THE)
+ * * GREENLAND
+
  */
-  XCD = 951;
+  DKK = 208;
 
 /**
  * Dominican Peso
  *
  * * DOMINICAN REPUBLIC (THE)
+
  */
   DOP = 214;
 
 /**
- * US Dollar
+ * Algerian Dinar
  *
- * * ECUADOR
+ * * ALGERIA
+
  */
-  USD = 840;
+  DZD = 12;
 
 /**
  * Egyptian Pound
  *
  * * EGYPT
+
  */
   EGP = 818;
-
-/**
- * El Salvador Colon
- *
- * * EL SALVADOR
- */
-  SVC = 222;
-
-/**
- * US Dollar
- *
- * * EL SALVADOR
- */
-  USD = 840;
-
-/**
- * CFA Franc BEAC
- *
- * * EQUATORIAL GUINEA
- */
-  XAF = 950;
 
 /**
  * Nakfa
  *
  * * ERITREA
+
  */
   ERN = 232;
-
-/**
- * Euro
- *
- * * ESTONIA
- */
-  EUR = 978;
 
 /**
  * Ethiopian Birr
  *
  * * ETHIOPIA
+
  */
   ETB = 230;
 
 /**
  * Euro
  *
+ * * ÅLAND ISLANDS
+ * * ANDORRA
+ * * AUSTRIA
+ * * BELGIUM
+ * * CYPRUS
+ * * ESTONIA
  * * EUROPEAN UNION
+ * * FINLAND
+ * * FRANCE
+ * * FRENCH GUIANA
+ * * FRENCH SOUTHERN TERRITORIES (THE)
+ * * GERMANY
+ * * GREECE
+ * * GUADELOUPE
+ * * HOLY SEE (THE)
+ * * IRELAND
+ * * ITALY
+ * * LATVIA
+ * * LITHUANIA
+ * * LUXEMBOURG
+ * * MALTA
+ * * MARTINIQUE
+ * * MAYOTTE
+ * * MONACO
+ * * MONTENEGRO
+ * * NETHERLANDS (THE)
+ * * PORTUGAL
+ * * RÉUNION
+ * * SAINT BARTHÉLEMY
+ * * SAINT MARTIN (FRENCH PART)
+ * * SAINT PIERRE AND MIQUELON
+ * * SAN MARINO
+ * * SLOVAKIA
+ * * SLOVENIA
+ * * SPAIN
+
  */
   EUR = 978;
-
-/**
- * Falkland Islands Pound
- *
- * * FALKLAND ISLANDS (THE) [MALVINAS]
- */
-  FKP = 238;
-
-/**
- * Danish Krone
- *
- * * FAROE ISLANDS (THE)
- */
-  DKK = 208;
 
 /**
  * Fiji Dollar
  *
  * * FIJI
+
  */
   FJD = 242;
 
 /**
- * Euro
+ * Falkland Islands Pound
  *
- * * FINLAND
+ * * FALKLAND ISLANDS (THE) [MALVINAS]
+
  */
-  EUR = 978;
+  FKP = 238;
 
 /**
- * Euro
+ * Pound Sterling
  *
- * * FRANCE
- */
-  EUR = 978;
+ * * GUERNSEY
+ * * ISLE OF MAN
+ * * JERSEY
+ * * UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)
 
-/**
- * Euro
- *
- * * FRENCH GUIANA
  */
-  EUR = 978;
-
-/**
- * CFP Franc
- *
- * * FRENCH POLYNESIA
- */
-  XPF = 953;
-
-/**
- * Euro
- *
- * * FRENCH SOUTHERN TERRITORIES (THE)
- */
-  EUR = 978;
-
-/**
- * CFA Franc BEAC
- *
- * * GABON
- */
-  XAF = 950;
-
-/**
- * Dalasi
- *
- * * GAMBIA (THE)
- */
-  GMD = 270;
+  GBP = 826;
 
 /**
  * Lari
  *
  * * GEORGIA
+
  */
   GEL = 981;
-
-/**
- * Euro
- *
- * * GERMANY
- */
-  EUR = 978;
 
 /**
  * Ghana Cedi
  *
  * * GHANA
+
  */
   GHS = 936;
 
@@ -644,251 +495,192 @@ enum CurrencyCode {
  * Gibraltar Pound
  *
  * * GIBRALTAR
+
  */
   GIP = 292;
 
 /**
- * Euro
+ * Dalasi
  *
- * * GREECE
- */
-  EUR = 978;
+ * * GAMBIA (THE)
 
-/**
- * Danish Krone
- *
- * * GREENLAND
  */
-  DKK = 208;
-
-/**
- * East Caribbean Dollar
- *
- * * GRENADA
- */
-  XCD = 951;
-
-/**
- * Euro
- *
- * * GUADELOUPE
- */
-  EUR = 978;
-
-/**
- * US Dollar
- *
- * * GUAM
- */
-  USD = 840;
-
-/**
- * Quetzal
- *
- * * GUATEMALA
- */
-  GTQ = 320;
-
-/**
- * Pound Sterling
- *
- * * GUERNSEY
- */
-  GBP = 826;
+  GMD = 270;
 
 /**
  * Guinea Franc
  *
  * * GUINEA
+
  */
   GNF = 324;
 
 /**
- * CFA Franc BCEAO
+ * Quetzal
  *
- * * GUINEA-BISSAU
+ * * GUATEMALA
+
  */
-  XOF = 952;
+  GTQ = 320;
 
 /**
  * Guyana Dollar
  *
  * * GUYANA
+
  */
   GYD = 328;
-
-/**
- * Gourde
- *
- * * HAITI
- */
-  HTG = 332;
-
-/**
- * US Dollar
- *
- * * HAITI
- */
-  USD = 840;
-
-/**
- * Australian Dollar
- *
- * * HEARD ISLAND AND McDONALD ISLANDS
- */
-  AUD = 36;
-
-/**
- * Euro
- *
- * * HOLY SEE (THE)
- */
-  EUR = 978;
-
-/**
- * Lempira
- *
- * * HONDURAS
- */
-  HNL = 340;
 
 /**
  * Hong Kong Dollar
  *
  * * HONG KONG
+
  */
   HKD = 344;
+
+/**
+ * Lempira
+ *
+ * * HONDURAS
+
+ */
+  HNL = 340;
+
+/**
+ * Kuna
+ *
+ * * CROATIA
+
+ */
+  HRK = 191;
+
+/**
+ * Gourde
+ *
+ * * HAITI
+
+ */
+  HTG = 332;
 
 /**
  * Forint
  *
  * * HUNGARY
+
  */
   HUF = 348;
-
-/**
- * Iceland Krona
- *
- * * ICELAND
- */
-  ISK = 352;
-
-/**
- * Indian Rupee
- *
- * * INDIA
- */
-  INR = 356;
 
 /**
  * Rupiah
  *
  * * INDONESIA
+
  */
   IDR = 360;
-
-/**
- * SDR (Special Drawing Right)
- *
- * * INTERNATIONAL MONETARY FUND (IMF)
- */
-  XDR = 960;
-
-/**
- * Iranian Rial
- *
- * * IRAN (ISLAMIC REPUBLIC OF)
- */
-  IRR = 364;
-
-/**
- * Iraqi Dinar
- *
- * * IRAQ
- */
-  IQD = 368;
-
-/**
- * Euro
- *
- * * IRELAND
- */
-  EUR = 978;
-
-/**
- * Pound Sterling
- *
- * * ISLE OF MAN
- */
-  GBP = 826;
 
 /**
  * New Israeli Sheqel
  *
  * * ISRAEL
+
  */
   ILS = 376;
 
 /**
- * Euro
+ * Indian Rupee
  *
- * * ITALY
+ * * BHUTAN
+ * * INDIA
+
  */
-  EUR = 978;
+  INR = 356;
+
+/**
+ * Iraqi Dinar
+ *
+ * * IRAQ
+
+ */
+  IQD = 368;
+
+/**
+ * Iranian Rial
+ *
+ * * IRAN (ISLAMIC REPUBLIC OF)
+
+ */
+  IRR = 364;
+
+/**
+ * Iceland Krona
+ *
+ * * ICELAND
+
+ */
+  ISK = 352;
 
 /**
  * Jamaican Dollar
  *
  * * JAMAICA
+
  */
   JMD = 388;
-
-/**
- * Yen
- *
- * * JAPAN
- */
-  JPY = 392;
-
-/**
- * Pound Sterling
- *
- * * JERSEY
- */
-  GBP = 826;
 
 /**
  * Jordanian Dinar
  *
  * * JORDAN
+
  */
   JOD = 400;
 
 /**
- * Tenge
+ * Yen
  *
- * * KAZAKHSTAN
+ * * JAPAN
+
  */
-  KZT = 398;
+  JPY = 392;
 
 /**
  * Kenyan Shilling
  *
  * * KENYA
+
  */
   KES = 404;
 
 /**
- * Australian Dollar
+ * Som
  *
- * * KIRIBATI
+ * * KYRGYZSTAN
+
  */
-  AUD = 36;
+  KGS = 417;
+
+/**
+ * Riel
+ *
+ * * CAMBODIA
+
+ */
+  KHR = 116;
+
+/**
+ * Comoro Franc
+ *
+ * * COMOROS (THE)
+
+ */
+  KMF = 174;
 
 /**
  * North Korean Won
  *
  * * KOREA (THE DEMOCRATIC PEOPLE’S REPUBLIC OF)
+
  */
   KPW = 408;
 
@@ -896,6 +688,7 @@ enum CurrencyCode {
  * Won
  *
  * * KOREA (THE REPUBLIC OF)
+
  */
   KRW = 410;
 
@@ -903,160 +696,136 @@ enum CurrencyCode {
  * Kuwaiti Dinar
  *
  * * KUWAIT
+
  */
   KWD = 414;
 
 /**
- * Som
+ * Cayman Islands Dollar
  *
- * * KYRGYZSTAN
+ * * CAYMAN ISLANDS (THE)
+
  */
-  KGS = 417;
+  KYD = 136;
+
+/**
+ * Tenge
+ *
+ * * KAZAKHSTAN
+
+ */
+  KZT = 398;
 
 /**
  * Kip
  *
  * * LAO PEOPLE’S DEMOCRATIC REPUBLIC (THE)
+
  */
   LAK = 418;
-
-/**
- * Euro
- *
- * * LATVIA
- */
-  EUR = 978;
 
 /**
  * Lebanese Pound
  *
  * * LEBANON
+
  */
   LBP = 422;
 
 /**
- * Loti
+ * Sri Lanka Rupee
  *
- * * LESOTHO
- */
-  LSL = 426;
+ * * SRI LANKA
 
-/**
- * Rand
- *
- * * LESOTHO
  */
-  ZAR = 710;
+  LKR = 144;
 
 /**
  * Liberian Dollar
  *
  * * LIBERIA
+
  */
   LRD = 430;
+
+/**
+ * Loti
+ *
+ * * LESOTHO
+
+ */
+  LSL = 426;
 
 /**
  * Libyan Dinar
  *
  * * LIBYA
+
  */
   LYD = 434;
 
 /**
- * Swiss Franc
+ * Moroccan Dirham
  *
- * * LIECHTENSTEIN
+ * * MOROCCO
+ * * WESTERN SAHARA
+
  */
-  CHF = 756;
+  MAD = 504;
 
 /**
- * Euro
+ * Moldovan Leu
  *
- * * LITHUANIA
- */
-  EUR = 978;
+ * * MOLDOVA (THE REPUBLIC OF)
 
-/**
- * Euro
- *
- * * LUXEMBOURG
  */
-  EUR = 978;
-
-/**
- * Pataca
- *
- * * MACAO
- */
-  MOP = 446;
-
-/**
- * Denar
- *
- * * MACEDONIA (THE FORMER YUGOSLAV REPUBLIC OF)
- */
-  MKD = 807;
+  MDL = 498;
 
 /**
  * Malagasy Ariary
  *
  * * MADAGASCAR
+
  */
   MGA = 969;
 
 /**
- * Malawi Kwacha
+ * Denar
  *
- * * MALAWI
+ * * MACEDONIA (THE FORMER YUGOSLAV REPUBLIC OF)
+
  */
-  MWK = 454;
+  MKD = 807;
 
 /**
- * Malaysian Ringgit
+ * Kyat
  *
- * * MALAYSIA
+ * * MYANMAR
+
  */
-  MYR = 458;
+  MMK = 104;
 
 /**
- * Rufiyaa
+ * Tugrik
  *
- * * MALDIVES
+ * * MONGOLIA
+
  */
-  MVR = 462;
+  MNT = 496;
 
 /**
- * CFA Franc BCEAO
+ * Pataca
  *
- * * MALI
- */
-  XOF = 952;
+ * * MACAO
 
-/**
- * Euro
- *
- * * MALTA
  */
-  EUR = 978;
-
-/**
- * US Dollar
- *
- * * MARSHALL ISLANDS (THE)
- */
-  USD = 840;
-
-/**
- * Euro
- *
- * * MARTINIQUE
- */
-  EUR = 978;
+  MOP = 446;
 
 /**
  * Ouguiya
  *
  * * MAURITANIA
+
  */
   MRO = 478;
 
@@ -1064,27 +833,31 @@ enum CurrencyCode {
  * Mauritius Rupee
  *
  * * MAURITIUS
+
  */
   MUR = 480;
 
 /**
- * Euro
+ * Rufiyaa
  *
- * * MAYOTTE
+ * * MALDIVES
+
  */
-  EUR = 978;
+  MVR = 462;
 
 /**
- * ADB Unit of Account
+ * Malawi Kwacha
  *
- * * MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP
+ * * MALAWI
+
  */
-  XUA = 965;
+  MWK = 454;
 
 /**
  * Mexican Peso
  *
  * * MEXICO
+
  */
   MXN = 484;
 
@@ -1092,286 +865,173 @@ enum CurrencyCode {
  * Mexican Unidad de Inversion (UDI)
  *
  * * MEXICO
+
  */
   MXV = 979;
 
 /**
- * US Dollar
+ * Malaysian Ringgit
  *
- * * MICRONESIA (FEDERATED STATES OF)
- */
-  USD = 840;
+ * * MALAYSIA
 
-/**
- * Moldovan Leu
- *
- * * MOLDOVA (THE REPUBLIC OF)
  */
-  MDL = 498;
-
-/**
- * Euro
- *
- * * MONACO
- */
-  EUR = 978;
-
-/**
- * Tugrik
- *
- * * MONGOLIA
- */
-  MNT = 496;
-
-/**
- * Euro
- *
- * * MONTENEGRO
- */
-  EUR = 978;
-
-/**
- * East Caribbean Dollar
- *
- * * MONTSERRAT
- */
-  XCD = 951;
-
-/**
- * Moroccan Dirham
- *
- * * MOROCCO
- */
-  MAD = 504;
+  MYR = 458;
 
 /**
  * Mozambique Metical
  *
  * * MOZAMBIQUE
+
  */
   MZN = 943;
-
-/**
- * Kyat
- *
- * * MYANMAR
- */
-  MMK = 104;
 
 /**
  * Namibia Dollar
  *
  * * NAMIBIA
+
  */
   NAD = 516;
-
-/**
- * Rand
- *
- * * NAMIBIA
- */
-  ZAR = 710;
-
-/**
- * Australian Dollar
- *
- * * NAURU
- */
-  AUD = 36;
-
-/**
- * Nepalese Rupee
- *
- * * NEPAL
- */
-  NPR = 524;
-
-/**
- * Euro
- *
- * * NETHERLANDS (THE)
- */
-  EUR = 978;
-
-/**
- * CFP Franc
- *
- * * NEW CALEDONIA
- */
-  XPF = 953;
-
-/**
- * New Zealand Dollar
- *
- * * NEW ZEALAND
- */
-  NZD = 554;
-
-/**
- * Cordoba Oro
- *
- * * NICARAGUA
- */
-  NIO = 558;
-
-/**
- * CFA Franc BCEAO
- *
- * * NIGER (THE)
- */
-  XOF = 952;
 
 /**
  * Naira
  *
  * * NIGERIA
+
  */
   NGN = 566;
 
 /**
- * New Zealand Dollar
+ * Cordoba Oro
  *
- * * NIUE
- */
-  NZD = 554;
+ * * NICARAGUA
 
-/**
- * Australian Dollar
- *
- * * NORFOLK ISLAND
  */
-  AUD = 36;
-
-/**
- * US Dollar
- *
- * * NORTHERN MARIANA ISLANDS (THE)
- */
-  USD = 840;
+  NIO = 558;
 
 /**
  * Norwegian Krone
  *
+ * * BOUVET ISLAND
  * * NORWAY
+ * * SVALBARD AND JAN MAYEN
+
  */
   NOK = 578;
+
+/**
+ * Nepalese Rupee
+ *
+ * * NEPAL
+
+ */
+  NPR = 524;
+
+/**
+ * New Zealand Dollar
+ *
+ * * COOK ISLANDS (THE)
+ * * NEW ZEALAND
+ * * NIUE
+ * * PITCAIRN
+ * * TOKELAU
+
+ */
+  NZD = 554;
 
 /**
  * Rial Omani
  *
  * * OMAN
+
  */
   OMR = 512;
-
-/**
- * Pakistan Rupee
- *
- * * PAKISTAN
- */
-  PKR = 586;
-
-/**
- * US Dollar
- *
- * * PALAU
- */
-  USD = 840;
 
 /**
  * Balboa
  *
  * * PANAMA
+
  */
   PAB = 590;
-
-/**
- * US Dollar
- *
- * * PANAMA
- */
-  USD = 840;
-
-/**
- * Kina
- *
- * * PAPUA NEW GUINEA
- */
-  PGK = 598;
-
-/**
- * Guarani
- *
- * * PARAGUAY
- */
-  PYG = 600;
 
 /**
  * Sol
  *
  * * PERU
+
  */
   PEN = 604;
+
+/**
+ * Kina
+ *
+ * * PAPUA NEW GUINEA
+
+ */
+  PGK = 598;
 
 /**
  * Philippine Peso
  *
  * * PHILIPPINES (THE)
+
  */
   PHP = 608;
 
 /**
- * New Zealand Dollar
+ * Pakistan Rupee
  *
- * * PITCAIRN
+ * * PAKISTAN
+
  */
-  NZD = 554;
+  PKR = 586;
 
 /**
  * Zloty
  *
  * * POLAND
+
  */
   PLN = 985;
 
 /**
- * Euro
+ * Guarani
  *
- * * PORTUGAL
- */
-  EUR = 978;
+ * * PARAGUAY
 
-/**
- * US Dollar
- *
- * * PUERTO RICO
  */
-  USD = 840;
+  PYG = 600;
 
 /**
  * Qatari Rial
  *
  * * QATAR
+
  */
   QAR = 634;
-
-/**
- * Euro
- *
- * * RÉUNION
- */
-  EUR = 978;
 
 /**
  * Romanian Leu
  *
  * * ROMANIA
+
  */
   RON = 946;
+
+/**
+ * Serbian Dinar
+ *
+ * * SERBIA
+
+ */
+  RSD = 941;
 
 /**
  * Russian Ruble
  *
  * * RUSSIAN FEDERATION (THE)
+
  */
   RUB = 643;
 
@@ -1379,391 +1039,241 @@ enum CurrencyCode {
  * Rwanda Franc
  *
  * * RWANDA
+
  */
   RWF = 646;
-
-/**
- * Euro
- *
- * * SAINT BARTHÉLEMY
- */
-  EUR = 978;
-
-/**
- * Saint Helena Pound
- *
- * * SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA
- */
-  SHP = 654;
-
-/**
- * East Caribbean Dollar
- *
- * * SAINT KITTS AND NEVIS
- */
-  XCD = 951;
-
-/**
- * East Caribbean Dollar
- *
- * * SAINT LUCIA
- */
-  XCD = 951;
-
-/**
- * Euro
- *
- * * SAINT MARTIN (FRENCH PART)
- */
-  EUR = 978;
-
-/**
- * Euro
- *
- * * SAINT PIERRE AND MIQUELON
- */
-  EUR = 978;
-
-/**
- * East Caribbean Dollar
- *
- * * SAINT VINCENT AND THE GRENADINES
- */
-  XCD = 951;
-
-/**
- * Tala
- *
- * * SAMOA
- */
-  WST = 882;
-
-/**
- * Euro
- *
- * * SAN MARINO
- */
-  EUR = 978;
-
-/**
- * Dobra
- *
- * * SAO TOME AND PRINCIPE
- */
-  STD = 678;
 
 /**
  * Saudi Riyal
  *
  * * SAUDI ARABIA
+
  */
   SAR = 682;
-
-/**
- * CFA Franc BCEAO
- *
- * * SENEGAL
- */
-  XOF = 952;
-
-/**
- * Serbian Dinar
- *
- * * SERBIA
- */
-  RSD = 941;
-
-/**
- * Seychelles Rupee
- *
- * * SEYCHELLES
- */
-  SCR = 690;
-
-/**
- * Leone
- *
- * * SIERRA LEONE
- */
-  SLL = 694;
-
-/**
- * Singapore Dollar
- *
- * * SINGAPORE
- */
-  SGD = 702;
-
-/**
- * Netherlands Antillean Guilder
- *
- * * SINT MAARTEN (DUTCH PART)
- */
-  ANG = 532;
-
-/**
- * Sucre
- *
- * * SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS "SUCRE"
- */
-  XSU = 994;
-
-/**
- * Euro
- *
- * * SLOVAKIA
- */
-  EUR = 978;
-
-/**
- * Euro
- *
- * * SLOVENIA
- */
-  EUR = 978;
 
 /**
  * Solomon Islands Dollar
  *
  * * SOLOMON ISLANDS
+
  */
   SBD = 90;
 
 /**
- * Somali Shilling
+ * Seychelles Rupee
  *
- * * SOMALIA
- */
-  SOS = 706;
+ * * SEYCHELLES
 
-/**
- * Rand
- *
- * * SOUTH AFRICA
  */
-  ZAR = 710;
-
-/**
- * South Sudanese Pound
- *
- * * SOUTH SUDAN
- */
-  SSP = 728;
-
-/**
- * Euro
- *
- * * SPAIN
- */
-  EUR = 978;
-
-/**
- * Sri Lanka Rupee
- *
- * * SRI LANKA
- */
-  LKR = 144;
+  SCR = 690;
 
 /**
  * Sudanese Pound
  *
  * * SUDAN (THE)
+
  */
   SDG = 938;
-
-/**
- * Surinam Dollar
- *
- * * SURINAME
- */
-  SRD = 968;
-
-/**
- * Norwegian Krone
- *
- * * SVALBARD AND JAN MAYEN
- */
-  NOK = 578;
-
-/**
- * Lilangeni
- *
- * * SWAZILAND
- */
-  SZL = 748;
 
 /**
  * Swedish Krona
  *
  * * SWEDEN
+
  */
   SEK = 752;
 
 /**
- * Swiss Franc
+ * Singapore Dollar
  *
- * * SWITZERLAND
+ * * SINGAPORE
+
  */
-  CHF = 756;
+  SGD = 702;
 
 /**
- * WIR Euro
+ * Saint Helena Pound
  *
- * * SWITZERLAND
+ * * SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA
+
  */
-  CHE = 947;
+  SHP = 654;
 
 /**
- * WIR Franc
+ * Leone
  *
- * * SWITZERLAND
+ * * SIERRA LEONE
+
  */
-  CHW = 948;
+  SLL = 694;
+
+/**
+ * Somali Shilling
+ *
+ * * SOMALIA
+
+ */
+  SOS = 706;
+
+/**
+ * Surinam Dollar
+ *
+ * * SURINAME
+
+ */
+  SRD = 968;
+
+/**
+ * South Sudanese Pound
+ *
+ * * SOUTH SUDAN
+
+ */
+  SSP = 728;
+
+/**
+ * Dobra
+ *
+ * * SAO TOME AND PRINCIPE
+
+ */
+  STD = 678;
+
+/**
+ * El Salvador Colon
+ *
+ * * EL SALVADOR
+
+ */
+  SVC = 222;
 
 /**
  * Syrian Pound
  *
  * * SYRIAN ARAB REPUBLIC
+
  */
   SYP = 760;
 
 /**
- * New Taiwan Dollar
+ * Lilangeni
  *
- * * TAIWAN (PROVINCE OF CHINA)
- */
-  TWD = 901;
+ * * SWAZILAND
 
-/**
- * Somoni
- *
- * * TAJIKISTAN
  */
-  TJS = 972;
-
-/**
- * Tanzanian Shilling
- *
- * * TANZANIA, UNITED REPUBLIC OF
- */
-  TZS = 834;
+  SZL = 748;
 
 /**
  * Baht
  *
  * * THAILAND
+
  */
   THB = 764;
 
 /**
- * US Dollar
+ * Somoni
  *
- * * TIMOR-LESTE
- */
-  USD = 840;
+ * * TAJIKISTAN
 
-/**
- * CFA Franc BCEAO
- *
- * * TOGO
  */
-  XOF = 952;
-
-/**
- * New Zealand Dollar
- *
- * * TOKELAU
- */
-  NZD = 554;
-
-/**
- * Pa’anga
- *
- * * TONGA
- */
-  TOP = 776;
-
-/**
- * Trinidad and Tobago Dollar
- *
- * * TRINIDAD AND TOBAGO
- */
-  TTD = 780;
-
-/**
- * Tunisian Dinar
- *
- * * TUNISIA
- */
-  TND = 788;
-
-/**
- * Turkish Lira
- *
- * * TURKEY
- */
-  TRY = 949;
+  TJS = 972;
 
 /**
  * Turkmenistan New Manat
  *
  * * TURKMENISTAN
+
  */
   TMT = 934;
 
 /**
- * US Dollar
+ * Tunisian Dinar
  *
- * * TURKS AND CAICOS ISLANDS (THE)
+ * * TUNISIA
+
  */
-  USD = 840;
+  TND = 788;
 
 /**
- * Australian Dollar
+ * Pa’anga
  *
- * * TUVALU
+ * * TONGA
+
  */
-  AUD = 36;
+  TOP = 776;
 
 /**
- * Uganda Shilling
+ * Turkish Lira
  *
- * * UGANDA
+ * * TURKEY
+
  */
-  UGX = 800;
+  TRY = 949;
+
+/**
+ * Trinidad and Tobago Dollar
+ *
+ * * TRINIDAD AND TOBAGO
+
+ */
+  TTD = 780;
+
+/**
+ * New Taiwan Dollar
+ *
+ * * TAIWAN (PROVINCE OF CHINA)
+
+ */
+  TWD = 901;
+
+/**
+ * Tanzanian Shilling
+ *
+ * * TANZANIA, UNITED REPUBLIC OF
+
+ */
+  TZS = 834;
 
 /**
  * Hryvnia
  *
  * * UKRAINE
+
  */
   UAH = 980;
 
 /**
- * UAE Dirham
+ * Uganda Shilling
  *
- * * UNITED ARAB EMIRATES (THE)
- */
-  AED = 784;
+ * * UGANDA
 
-/**
- * Pound Sterling
- *
- * * UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)
  */
-  GBP = 826;
+  UGX = 800;
 
 /**
  * US Dollar
  *
+ * * AMERICAN SAMOA
+ * * BONAIRE, SINT EUSTATIUS AND SABA
+ * * BRITISH INDIAN OCEAN TERRITORY (THE)
+ * * ECUADOR
+ * * EL SALVADOR
+ * * GUAM
+ * * HAITI
+ * * MARSHALL ISLANDS (THE)
+ * * MICRONESIA (FEDERATED STATES OF)
+ * * NORTHERN MARIANA ISLANDS (THE)
+ * * PALAU
+ * * PANAMA
+ * * PUERTO RICO
+ * * TIMOR-LESTE
+ * * TURKS AND CAICOS ISLANDS (THE)
  * * UNITED STATES MINOR OUTLYING ISLANDS (THE)
- */
-  USD = 840;
-
-/**
- * US Dollar
- *
  * * UNITED STATES OF AMERICA (THE)
+ * * VIRGIN ISLANDS (BRITISH)
+ * * VIRGIN ISLANDS (U.S.)
+
  */
   USD = 840;
 
@@ -1771,41 +1281,39 @@ enum CurrencyCode {
  * US Dollar (Next day)
  *
  * * UNITED STATES OF AMERICA (THE)
+
  */
   USN = 997;
-
-/**
- * Peso Uruguayo
- *
- * * URUGUAY
- */
-  UYU = 858;
 
 /**
  * Uruguay Peso en Unidades Indexadas (URUIURUI)
  *
  * * URUGUAY
+
  */
   UYI = 940;
+
+/**
+ * Peso Uruguayo
+ *
+ * * URUGUAY
+
+ */
+  UYU = 858;
 
 /**
  * Uzbekistan Sum
  *
  * * UZBEKISTAN
+
  */
   UZS = 860;
-
-/**
- * Vatu
- *
- * * VANUATU
- */
-  VUV = 548;
 
 /**
  * Bolívar
  *
  * * VENEZUELA (BOLIVARIAN REPUBLIC OF)
+
  */
   VEF = 937;
 
@@ -1813,62 +1321,60 @@ enum CurrencyCode {
  * Dong
  *
  * * VIET NAM
+
  */
   VND = 704;
 
 /**
- * US Dollar
+ * Vatu
  *
- * * VIRGIN ISLANDS (BRITISH)
+ * * VANUATU
+
  */
-  USD = 840;
+  VUV = 548;
 
 /**
- * US Dollar
+ * Tala
  *
- * * VIRGIN ISLANDS (U.S.)
+ * * SAMOA
+
  */
-  USD = 840;
+  WST = 882;
 
 /**
- * CFP Franc
+ * CFA Franc BEAC
  *
- * * WALLIS AND FUTUNA
+ * * CAMEROON
+ * * CENTRAL AFRICAN REPUBLIC (THE)
+ * * CHAD
+ * * CONGO (THE)
+ * * EQUATORIAL GUINEA
+ * * GABON
+
  */
-  XPF = 953;
+  XAF = 950;
 
 /**
- * Moroccan Dirham
+ * Silver
  *
- * * WESTERN SAHARA
+ * * ZZ11_Silver
+
  */
-  MAD = 504;
+  XAG = 961;
 
 /**
- * Yemeni Rial
+ * Gold
  *
- * * YEMEN
- */
-  YER = 886;
+ * * ZZ08_Gold
 
-/**
- * Zambian Kwacha
- *
- * * ZAMBIA
  */
-  ZMW = 967;
-
-/**
- * Zimbabwe Dollar
- *
- * * ZIMBABWE
- */
-  ZWL = 932;
+  XAU = 959;
 
 /**
  * Bond Markets Unit European Composite Unit (EURCO)
  *
  * * ZZ01_Bond Markets Unit European_EURCO
+
  */
   XBA = 955;
 
@@ -1876,6 +1382,7 @@ enum CurrencyCode {
  * Bond Markets Unit European Monetary Unit (E.M.U.-6)
  *
  * * ZZ02_Bond Markets Unit European_EMU-6
+
  */
   XBB = 956;
 
@@ -1883,6 +1390,7 @@ enum CurrencyCode {
  * Bond Markets Unit European Unit of Account 9 (E.U.A.-9)
  *
  * * ZZ03_Bond Markets Unit European_EUA-9
+
  */
   XBC = 957;
 
@@ -1890,49 +1398,138 @@ enum CurrencyCode {
  * Bond Markets Unit European Unit of Account 17 (E.U.A.-17)
  *
  * * ZZ04_Bond Markets Unit European_EUA-17
+
  */
   XBD = 958;
 
 /**
- * Codes specifically reserved for testing purposes
+ * East Caribbean Dollar
  *
- * * ZZ06_Testing_Code
+ * * ANGUILLA
+ * * ANTIGUA AND BARBUDA
+ * * DOMINICA
+ * * GRENADA
+ * * MONTSERRAT
+ * * SAINT KITTS AND NEVIS
+ * * SAINT LUCIA
+ * * SAINT VINCENT AND THE GRENADINES
+
  */
-  XTS = 963;
+  XCD = 951;
 
 /**
- * The codes assigned for transactions where no currency is involved
+ * SDR (Special Drawing Right)
  *
- * * ZZ07_No_Currency
+ * * INTERNATIONAL MONETARY FUND (IMF)
+
  */
-  XXX = 999;
+  XDR = 960;
 
 /**
- * Gold
+ * CFA Franc BCEAO
  *
- * * ZZ08_Gold
+ * * BENIN
+ * * BURKINA FASO
+ * * CÔTE D'IVOIRE
+ * * GUINEA-BISSAU
+ * * MALI
+ * * NIGER (THE)
+ * * SENEGAL
+ * * TOGO
+
  */
-  XAU = 959;
+  XOF = 952;
 
 /**
  * Palladium
  *
  * * ZZ09_Palladium
+
  */
   XPD = 964;
+
+/**
+ * CFP Franc
+ *
+ * * FRENCH POLYNESIA
+ * * NEW CALEDONIA
+ * * WALLIS AND FUTUNA
+
+ */
+  XPF = 953;
 
 /**
  * Platinum
  *
  * * ZZ10_Platinum
+
  */
   XPT = 962;
 
 /**
- * Silver
+ * Sucre
  *
- * * ZZ11_Silver
+ * * SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS "SUCRE"
+
  */
-  XAG = 961;
+  XSU = 994;
+
+/**
+ * Codes specifically reserved for testing purposes
+ *
+ * * ZZ06_Testing_Code
+
+ */
+  XTS = 963;
+
+/**
+ * ADB Unit of Account
+ *
+ * * MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP
+
+ */
+  XUA = 965;
+
+/**
+ * The codes assigned for transactions where no currency is involved
+ *
+ * * ZZ07_No_Currency
+
+ */
+  XXX = 999;
+
+/**
+ * Yemeni Rial
+ *
+ * * YEMEN
+
+ */
+  YER = 886;
+
+/**
+ * Rand
+ *
+ * * LESOTHO
+ * * NAMIBIA
+ * * SOUTH AFRICA
+
+ */
+  ZAR = 710;
+
+/**
+ * Zambian Kwacha
+ *
+ * * ZAMBIA
+
+ */
+  ZMW = 967;
+
+/**
+ * Zimbabwe Dollar
+ *
+ * * ZIMBABWE
+
+ */
+  ZWL = 932;
 
 }

@@ -1,11 +1,12 @@
 TMP ?=	.tmp
 
 currency.proto: $(TMP)/currency_4217.json
-	cat $< | json2template .tmpl/currency_4217.tmpl > $@.tmp
+	cat $< | go run .tmpl/currency_4217.go > $@.tmp
 	mv $@.tmp $@
 
 $(TMP)/currency_4217.json: $(TMP)/currency_4217.xml
-	cat $< | xml2json > $@
+	cat $< | xml2json > $@.tmp
+	mv $@.tmp $@
 
 $(TMP)/currency_4217.xml:
 	mkdir -p .tmp
