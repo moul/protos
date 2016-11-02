@@ -15,6 +15,8 @@ var tmplStr = `syntax = "proto3";
 package currency;
 
 enum CurrencyCode {
+  _ = 0; // zero vale
+
 {{range .}}{{if .CurrencyNumber}}/**
  * {{.CurrencyName}}
  *
