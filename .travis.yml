@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker pull znly/protoc
+
+script:
+  - make docker-test
