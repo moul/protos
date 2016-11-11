@@ -11,3 +11,10 @@ $(TMP)/currency_4217.json: $(TMP)/currency_4217.xml
 $(TMP)/currency_4217.xml:
 	mkdir -p .tmp
 	wget http://www.currency-iso.org/dam/downloads/lists/list_one.xml -O$@
+
+
+.PHONY: test
+test:
+	rm -rf .tmp
+	mkdir -p .tmp
+	protoc --go_out=.tmp *.proto
