@@ -18,3 +18,8 @@ test:
 	rm -rf .tmp
 	mkdir -p .tmp
 	protoc --go_out=.tmp *.proto
+
+
+.PHONY: docker-test
+docker-test:
+	docker run -v "$(PWD):$(PWD)" -w "$(PWD)" --entrypoint=/bin/sh znly/protoc -c "make test"
