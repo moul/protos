@@ -1,12 +1,12 @@
 TMP ?=	.tmp
 
-all: currency.proto country.proto
+all: currency/iso4217.proto country/iso3166-1.proto
 
-currency.proto: $(TMP)/currency_4217.json
+currency/iso4217.proto: $(TMP)/currency_4217.json
 	cat $< | go run .tmpl/currency_4217.go > $@.tmp
 	mv $@.tmp $@
 
-country.proto: $(TMP)/country-codes.json
+country/iso3166-1.proto: $(TMP)/country-codes.json
 	cat $< | go run .tmpl/country_3166-1-numeric.go > $@.tmp
 	mv $@.tmp $@
 
@@ -26,9 +26,11 @@ $(TMP)/currency_4217.xml:
 
 .PHONY: test
 test:
-	rm -rf .tmp
-	mkdir -p .tmp
-	protoc --go_out=.tmp *.proto
+	rm -rf $(TMP)
+	mkdir -p $(TMP)
+	for e in country currency; do \
+	  protoc --go_out=.tmp $$e/*.proto || exit 1; \
+	done
 
 
 .PHONY: docker-test
