@@ -12,6 +12,11 @@ import (
 
 var tmplStr = `syntax = "proto3";
 
+/** Currency codes - ISO 4217
+ *
+ * http://www.iso.org/iso/home/standards/currency_codes.htm
+ */
+
 package currency;
 
 enum CurrencyCode {
