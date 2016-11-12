@@ -22,12 +22,12 @@ package country;
 enum CountryCode {
   _ = 0; // zero vale
 
-{{range .}}{{if gt .ISO31661Numeric 0}}/**
+{{range .}}{{if gt .ISO31661Numeric 0}}{{if .ISO31661Alpha3}}/**
  * {{.Name}}
  */
   {{.ISO31661Alpha3}} = {{.ISO31661Numeric}};
 
-{{end}}{{end}}}
+{{end}}{{end}}{{end}}}
 `
 
 type country struct {

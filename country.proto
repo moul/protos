@@ -11,16 +11,6 @@ enum CountryCode {
   _ = 0; // zero vale
 
 /**
- * 
- */
-   = 830;
-
-/**
- * 
- */
-   = 680;
-
-/**
  * Afghanistan
  */
   AFG = 4;
